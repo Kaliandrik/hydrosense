@@ -742,11 +742,7 @@ const ETo = () => {
             />
             
             {/* Camada adicional para melhor visualização */}
-            <TileLayer
-              url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
-              attribution='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>'
-              opacity={0.5}
-            />
+            
             
             <ChangeMapView center={mapCenter} zoom={mapZoom} />
             
