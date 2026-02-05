@@ -31,9 +31,32 @@
     { nome: "Algodão", kcValores: { fase1: 0.35, fase2: 0.75, fase3: 1.15, fase4: 0.7 } },
     { nome: "Girassol", kcValores: { fase1: 0.4, fase2: 0.8, fase3: 1.1, fase4: 0.6 } },
     { nome: "Sorgo", kcValores: { fase1: 0.35, fase2: 0.75, fase3: 1.1, fase4: 0.6 } },
-    { nome: "Amendoim", kcValores: { fase1: 0.4, fase2: 0.8, fase3: 1.05, fase4: 0.6 } }
+    { nome: "Amendoim", kcValores: { fase1: 0.4, fase2: 0.8, fase3: 1.05, fase4: 0.6 } },
+    { nome: "Abacate", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 1.0, fase4: 0.8 } },
+    { nome: "Batata-doce", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 1.1, fase4: 0.6 } },
+    { nome: "Batata-inglesa", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 1.1, fase4: 0.7 } },
+    { nome: "Batata-baroa", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 1.0, fase4: 0.7 } },
+    { nome: "Berinjela", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 1.1, fase4: 0.7 } },
+    { nome: "Beterraba", kcValores: { fase1: 0.4, fase2: 0.8, fase3: 1.1, fase4: 0.8 } },
+    { nome: "Crucíferas", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 1.0, fase4: 0.8 } },
+    { nome: "Feijão vagem", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 1.1, fase4: 0.7 } },
+    { nome: "Feijão seco", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 1.1, fase4: 0.4 } },
+    { nome: "Milho-doce", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 1.1, fase4: 0.9 } },
+    { nome: "Milho grãos", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 1.2, fase4: 0.5 } },
+    { nome: "Rabanete", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 1.0, fase4: 0.8 } },
+    
+    // Culturas do São Benedito (hortaliças e hortas caseiras)
+    { nome: "Couve", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 0.9, fase4: 0.8 } },
+    { nome: "Alho", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 1.1, fase4: 0.6 } },
+    { nome: "Manjericão", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 0.9, fase4: 0.8 } },
+    { nome: "Salsa", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 0.9, fase4: 0.8 } },
+    { nome: "Coentro", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 0.9, fase4: 0.8 } },
+    { nome: "Morango", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 0.9, fase4: 0.7 } },
+    { nome: "Quiabo", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 1.0, fase4: 0.7 } },
+    { nome: "Abobrinha", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 1.0, fase4: 0.8 } },
+    { nome: "Ervilha", kcValores: { fase1: 0.4, fase2: 0.7, fase3: 1.1, fase4: 0.5 } }
   ];
-
+  
   const fasesMap = {
     fase1: "Fase 1 - Inicial",
     fase2: "Fase 2 - Desenvolvimento",

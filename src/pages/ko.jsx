@@ -215,7 +215,56 @@ const culturas = {
       fase3: 1.2,
       fase4: 0.3
     }
+  },
+  abacate: {
+  nome: "Abacate",
+  duracao: "Perene (365+)", // Cultura perene
+  fases_percentual: "25-25-25-25", // Valores estimados para perenes
+  kc: {
+    fase1: 0.4,
+    fase2: 0.7,
+    fase3: 1.0,
+    fase4: 0.8
   }
+},
+batata_doce: {
+  nome: "Batata-doce",
+  duracao: "110 a 160",
+  fases_percentual: "20-30-35-15",
+  kc: {
+    fase1: 0.4,
+    fase2: 0.7,
+    fase3: 1.1,
+    fase4: 0.6
+  }
+},
+
+batata_inglesa: {
+  nome: "Batata-inglesa",
+  duracao: "90 a 120", // Já existe "batata" mas vou adicionar como sinônimo específico
+  fases_percentual: "21-25-33-21",
+  kc: {
+    fase1: 0.4,
+    fase2: 0.7,
+    fase3: 1.1,
+    fase4: 0.7
+  }
+},
+
+batata_baroa: {
+  nome: "Batata-baroa (mandioquinha)",
+  duracao: "120 a 180",
+  fases_percentual: "22-28-35-15",
+  kc: {
+    fase1: 0.4,
+    fase2: 0.7,
+    fase3: 1.0,
+    fase4: 0.7
+  }
+},
+
+
+
 };
 
 const Ko = () => {
